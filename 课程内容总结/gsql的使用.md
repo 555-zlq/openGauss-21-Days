@@ -15,16 +15,16 @@
 所谓元命令就是在gsql里输入的任何以不带引号的反斜杠开头的命令。
 [官方文档链接](https://www.bookstack.cn/read/opengauss-2.0-zh/ac9dc9d434be0619.md#dcs0pq)
 
-==`\l`==
+`\l`
 > 元命令\l的作用是显示openGauss数据库集簇中，目前有哪些数据库。列出服务器上所有数据库的名称、所有者、字符集编码以及使用权限
 
 `\conninfo` 
 > 元命令\conninfo的作用是在gsql中，显示会话的连接信息(用户，数据库名字，端口啦等等)。
 
-==`\c db_name`==
+`\c db_name`
 > **元命令\ c[onnect] [DBNAME]的作用是在gsql中，切换连接的数据库db_name**
 
-==`\du \dg`==
+`\du \dg`
 > 元命令\dg命令与元命令\du命令的作用类似，都是显示openGauss数据库集簇中，目前有哪些用户和角色。
 
 `\db` 
@@ -33,13 +33,13 @@
 `\dn` 
 > \dn命令，元命令\dn的作用是显示当前数据库有哪些数据库模式。
 
-==`\dt`==
+`\dt`
 > \dt命令，命令\dt的作用是显示数据库中所有的表。
 
-==`\d tablename`==
+`\d tablename`
 > \d TableName命令，元命令\d TableName的作用是查看某个表的信息(**包括每一列的属性名称，类型，索引名字**)。
 
-==`\di indexname`==
+`\di indexname`
 > \di IndexName命令，查看索引信息，元命令\di IndexName的作用是查看某个索引的信息。
 > \di 查看所有索引信息
 
