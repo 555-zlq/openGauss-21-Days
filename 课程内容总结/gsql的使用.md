@@ -1,6 +1,6 @@
 # [openGauss每日一练第 2 天-客户端工具gsql的使用](https://www.modb.pro/db/567478)
 ## 1. 使用gsql命令连接数据库
-`gsql -d omm -p 5432 -u omm -w passward -r`
+`gsql -d omm -p 5432 -U omm -W passward -r`
 > 常用参数
 > -d 数据库名称， -p 端口号，-U(必须大写) 用户名称 -W(必须大写) 数据库密码 -r 保存历史操作
 
